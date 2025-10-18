@@ -75,6 +75,12 @@ section h1 {
     align-items: center;
     justify-content: center;
 }
+
+.section_item:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
 .section_item {
     height: 10vw;
     margin: 0 4em 4em 4em;
@@ -83,6 +89,8 @@ section h1 {
 .section_item img {
     height: 100%;
 }
+
+
 
 
 .projects {
